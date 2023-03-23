@@ -1,3 +1,22 @@
 site_name: My Docs
 theme:
   name: material
+  logo: assets/idtwizard.png
+  favicon: assets/idtwizard.png
+  features:
+    - navigation.top
+    - navigation.tabs
+    - navigation.tracking
+    - navigation.sections
+    - navigation.path
+    - navigation.indexes
+    - toc.follow
+extra_css: 
+  - stylesheets/extra.css
+extra:
+  social:
+    - icon: fontawesome/brands/mastodon 
+      link: https://google.com
+  generator: false
+copyright: Copyright by me
+
